@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+</head>
+<body>
+    <canvas style="height: 50px;
+    width: 200px;" id="barcode"></canvas>
+    <script src="JsBarcode.all.min.js"></script>
+    <script>
+        var hash=132255163213511533;//product hash
+        JsBarcode("#barcode",hash);
+    </script>
+</body>
+</html>
